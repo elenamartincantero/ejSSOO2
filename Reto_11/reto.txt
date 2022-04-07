@@ -1,0 +1,20 @@
+Crea un programa que genere 10 hilos y que inicialmente esperen 
+bloqueados a la espera de que sea su turno. El hilo principal irá 
+generando los turnos (id del hilo) y éstos se desbloquearán para 
+mostrar por pantalla una frase que indique que es su turno. 
+El hilo principal no generará un nuevo turno hasta que el hilo que 
+tenga el turno muestre la frase por pantalla.
+
+Reto 11 -> espera activa
+Reto 12 -> variables de condición
+
+1. Crear hilos
+2. Generar turnos (azar u orden)
+3. Esperar a que el hilo termine la ejecución
+4. Volver al paso 2
+
+Todos los hilos se bloquean hasta que turno = id
+Cuando cambie valor -> notify_all()
+Uno solo se desbloquea
+
+Hasta jueves noche
